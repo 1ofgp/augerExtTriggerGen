@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  int period = 10; //random(1, 20);
+  int period = random(2, 20);
   digitalWriteFast(TAXI_EXT_TRIGGER, HIGH);
   NOP10;
   NOP10;
